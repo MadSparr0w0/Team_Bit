@@ -1,0 +1,111 @@
+@import "./специальные.css";
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+
+html, body {
+    font-family: "Sofia Sans", sans-serif;
+    background-color: #2C1E68;
+}
+
+
+.nav {
+    position: absolute;
+    top: 10px;
+    border-radius: 10px; 
+    width: 250px;
+    height: 32px;
+    text-align: center;
+    padding: 8px 6px;
+    background-color: #2C1E68;
+    color: #A3C6FF;
+}
+.plat{
+    position: absolute;
+    top: 75px;
+    border-radius: 10px; 
+    width: 250px;
+    height: 32px;
+    text-align: left;
+    padding: 9px 6px;
+    background-color: #2C1E68;
+    color: #A3C6FF;
+}
+.stud{
+    position: absolute;
+    top: 120px;
+    border-radius: 10px; 
+    width: 250px;
+    height: 32px;
+    text-align: left;
+    padding: 9px 6px;
+    background-color: #2C1E68;
+    color: #A3C6FF;
+}
+.peg{
+    position: absolute;
+    top: 165px;
+    border-radius: 10px; 
+    width: 250px;
+    height: 32px;
+    text-align: left;
+    padding: 9px 6px;
+    background-color: #2C1E68;
+    color: #A3C6FF;
+}
+.org{
+    position: absolute;
+    top: 210px;
+    border-radius: 10px; 
+    width: 250px;
+    height: 32px;
+    text-align: left;
+    padding: 9px 6px;
+    background-color: #2C1E68;
+    color: #A3C6FF;
+}
+.pas{
+    position: absolute;
+    top: 255px;
+    border-radius: 10px; 
+    width: 250px;
+    height: 32px;
+    text-align: left;
+    padding: 9px 6px;
+    background-color: #2C1E68;
+    color: #A3C6FF;
+}
+.vak{
+    position: absolute;
+    top: 300px;
+    border-radius: 10px; 
+    width: 250px;
+    height: 32px;
+    text-align: left;
+    padding: 9px 6px;
+    background-color: #2C1E68;
+    color: #A3C6FF;
+}
+.kon{
+    position: absolute;
+    top: 345px;
+    border-radius: 10px; 
+    width: 250px;
+    height: 32px;
+    text-align: left;
+    padding: 9px 6px;
+    background-color: #2C1E68;
+    color: #A3C6FF;
+}
+.naz{
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    text-align: right;
+    color: #A3C6FF;
+    font-size: 30px;
+}
+.kvad{
+    background: black;
+    width: 250px;
+    height: 400px;
+}

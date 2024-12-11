@@ -1,31 +1,31 @@
-
+﻿
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Форма регистрации</title>
     <style>
+
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            font-family: Sofia Sans, sans-serif;
+            background-color: #A5BAFF;
             padding: 20px;
         }
+
         .container {
             max-width: 400px;
             margin: auto;
-            background: white;
+            color: black;
+            background-color: #A270AE;
             padding: 20px;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        input[type="text"], input[type="email"], input[type="password"] {
-            width: 100%;
-            padding: 10px;
-            margin: 10px 0;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
+        
         input[type="submit"] {
             background-color: #4CAF50;
             color: white;
@@ -34,6 +34,7 @@
             border-radius: 5px;
             cursor: pointer;
         }
+
         input[type="submit"]:hover {
             background-color: #45a049;
         }
@@ -42,13 +43,10 @@
 <body>
 
 <div class="container">
-    <h2>Регистрация</h2>
+    <h1>Регистрация</h1>
     <form action="/submit_registration" method="POST">
         <label for="username">Имя пользователя:</label>
         <input type="text" id="username" name="username" required>
-
-        <label for="email">Электронная почта:</label>
-        <input type="email" id="email" name="email" required>
 
         <label for="password">Пароль:</label>
         <input type="password" id="password" name="password" required>
@@ -56,27 +54,6 @@
         <label for="confirm_password">Подтверждение пароля:</label>
         <input type="password" id="confirm_password" name="confirm_password" required>
 
-        
-    </form>
-    <h2>Выберите вашу роль</h2>
-    <form action="/submit_role" method="POST">
-        <label>
-            <input type="radio" name="role" value="student" required>
-            Студент
-        </label><br>
-        
-        <label>
-            <input type="radio" name="role" value="teacher" required>
-            Преподаватель
-        </label><br>
-        
-        <label>
-            <input type="radio" name="role" value="employer" required>
-            Работодатель
-        </label><br><br>
-
-        <input type="submit" value="Зарегистрироваться">
-    </form>
 </div>
 
 

@@ -15,22 +15,24 @@
             padding: 20px;
         }
         .container {
+            
             max-width: 400px;
-            margin: auto;
+           margin: auto;
             color: black;
             background-color: #A270AE;
             padding: 20px;
-            border-radius: 5px;
+            border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         input[type="text"], input[type="email"], input[type="password"] {
-            width: 375px;
+            width: 95%;
             padding: 10px;
             margin: 10px 0;
             border: 1px solid #ccc;
             border-radius: 5px;
         }
         input[type="submit"] {
+            
             background-color: #4CAF50;
             color: black;
             border: none;
@@ -44,11 +46,10 @@
     </style>
 </head>
 <body>
-
 <div class="container">
     <h1>Регистрация</h1>
     <form action="/submit_registration" method="POST">
-        <label for="username">Имя пользователя:</label>
+        <label for="username">Ф.И.О пользователя:</label>
         <input type="text" id="username" name="username" required>
 
         <label for="email">Электронная почта:</label>
@@ -59,9 +60,24 @@
 
         <label for="confirm_password">Подтверждение пароля:</label>
         <input type="password" id="confirm_password" name="confirm_password" required>
-<input type="submit" value="Зарегистрироваться">
-</div>
 
+        <label for="role">Должность:</label>
+        <select id="role" name="role" required>
+            <option value="" disabled selected>Выберите должность</option>
+            <option value="student">Студент</option>
+            <option value="teacher">Педагог</option>
+            <option value="employer">Работодатель</option>
+        </select>
+
+<input type="submit" value="Зарегистрироваться" required> 
+</form>
+</div>
+<script>
+    document.querySelector('form').addEventListener('submit', function(event) {
+        event.preventDefault();
+        window.location.href = "допрофиля.html";
+    });
+</script>
 
 </body>
 </html>

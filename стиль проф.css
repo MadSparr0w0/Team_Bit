@@ -1,0 +1,136 @@
+@import "./специальные.css";
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+
+html, body {
+    font-family: "Sofia Sans", sans-serif;
+    background-color: #A5BAFF;
+    margin: 0;
+    border-top: 50px solid #A270AE;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.nav {
+    position: absolute;
+    top: 6px;
+    left: 2%;
+    border-radius: 10px; 
+    width: 270px;
+    height: 20px;
+    text-align: center;
+    padding: 8px 6px;
+    background-color: #A5BAFF;
+    color: black;
+    font-size: 18px;
+}
+.sas{
+    text-decoration: none;
+    color: black;
+}
+.naz{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-align: right;
+    color: black;
+    font-size: 30px;
+}
+.kvad{
+    position: absolute;
+    top: 10%;
+    border-radius: 10px;
+    margin: auto;
+    width: 500px; /* Ширина внешнего прямоугольника */
+    height: 520px; /* Высота внешнего прямоугольника */
+    background-color: #A270AE; /* Цвет внешнего прямоугольника */
+    display: flex; /* Используем flexbox для размещения внутренних прямоугольников */
+    flex-direction: column; /* Располагаем внутренние прямоугольники столбцом */
+    justify-content: space-around; /* Равномерно распределяем внутренние прямоугольники по высоте контейнера */
+    padding: 10px; /* Отступ внутри контейнера */
+    box-sizing: border-box;
+}
+p1{
+    position:relative;
+    margin-bottom: auto;
+text-align: center;
+color: black;
+font-size: 20px;
+
+}
+.line1{
+    position: absolute;
+    top: 15%;
+    margin: auto ;
+    width: 477px;
+  border-bottom: 3px solid black;
+}
+p2{
+    position:relative;
+    bottom: 47%;
+    margin: auto;
+text-align: center;
+color: black;
+font-size: 20px;
+}
+.line2{
+    position: absolute;
+    top: 30%;
+    margin: auto ;
+    width: 477px;
+  border-bottom: 3px solid black
+}
+p3{
+    position: relative;
+    bottom: 55%;
+    text-align: center;
+color: black;
+font-size: 20px;
+}
+.line3{
+    position: absolute;
+    top: 53%;
+right: 3%;
+    
+    width: 380px;
+  border-bottom: 3px solid black
+}
+p4{
+    position: absolute;
+    top: 50%;
+    text-align: left;
+    color: black;
+    font-size: 20px;
+}
+
+
+.line4{
+    position: absolute;
+    top: 63%;
+right: 3%;
+    
+    width: 380px;
+  border-bottom: 3px solid black
+}
+p5{
+    position: absolute;
+    top: 60%;
+    text-align: left;
+    color: black;
+    font-size: 20px;
+}
+.foto{
+    position: absolute;
+    top: 10%;
+    right: 2%;
+    border-radius: 10px;
+    margin: auto;
+    width: 300px; /* Ширина внешнего прямоугольника */
+    height: 300px; /* Высота внешнего прямоугольника */
+    background-color: #A270AE; /* Цвет внешнего прямоугольника */
+    display: flex; /* Используем flexbox для размещения внутренних прямоугольников */
+    flex-direction: column; /* Располагаем внутренние прямоугольники столбцом */
+    justify-content: space-around; /* Равномерно распределяем внутренние прямоугольники по высоте контейнера */
+    padding: 10px; /* Отступ внутри контейнера */
+    box-sizing: border-box;
+}
